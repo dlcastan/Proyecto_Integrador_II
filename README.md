@@ -104,15 +104,22 @@ Podés ejecutar un script SQL completo editando main.py para usar la función ru
 ## Estructura del Proyecto
 
 
-Copiar
-.
-├── main.py                      # Script principal
-├── docker-compose.yml           # Script docker
-├── modelos.py                   # Definición de modelos con SQLAlchemy
-├── db_conector.py               # Conexión a la base de datos
-├── /Sql                         # Scripts SQL para crear tablas directamente
-├── requirements.txt             # Dependencias del proyecto
-└── README.md                    # Este archivo
+
+├── scripts/    # Scripts SQL para crear tablas directamente
+
+├── main.py 
+
+├── main.py
+
+├── docker-compose.yml
+
+├── modelos.py
+
+├── db_conector.py
+
+├── requirements.txt
+
+└── README.md                   
 
 
 ## Ver la base de datos en PgAdmin
