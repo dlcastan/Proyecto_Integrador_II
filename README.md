@@ -21,13 +21,13 @@ Este proyecto en Python permite crear las tablas necesarias para una base de dat
 python -m venv venv
 source venv/bin/activate      # En Linux/macOS
 venv\\Scripts\\activate         # En Windows
-
+```
 
 ## Instalá las dependencias:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Configuración
 
@@ -41,6 +41,7 @@ Base = declarative_base()
 
 def get_db_engine():
     return create_engine("postgresql+psycopg2://usuario:contraseña@localhost:5432/EcommerceDB")
+```
 
 ## Despliegue con Docker
 
@@ -58,19 +59,20 @@ POSTGRES_USER=admin
 POSTGRES_PASSWORD=admin123
 PGADMIN_DEFAULT_EMAIL=admin@admin.com
 PGADMIN_DEFAULT_PASSWORD=admin123
-
+```
 
 Ejecutá Docker Compose:
 
 ```bash
 docker-compose up -d
-
+```
 
 ### Puertos expuestos:
 
 ```bash
 PostgreSQL: localhost:5432
 PgAdmin: http://localhost:8080
+```
 
 ### Volúmenes:
 
@@ -85,6 +87,7 @@ PgAdmin: http://localhost:8080
 
 ```bash
 python main.py
+```
 
 Esto usará los modelos definidos en modelos.py y creará automáticamente las tablas en la base de datos.
 
