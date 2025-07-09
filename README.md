@@ -1,4 +1,9 @@
-# EcommerceDB - Generación de Esquema con SQLAlchemy y PostgreSQL
+# Proyecto Integrador de Henry
+
+Carrera: Data Engineer  
+Alumno: Diego Lopez Castan
+
+## EcommerceDB - Generación de Esquema con SQLAlchemy y PostgreSQL
 
 Este proyecto en Python permite crear las tablas necesarias para una base de datos de comercio electrónico (`EcommerceDB`) utilizando SQLAlchemy y PostgreSQL. También incluye la opción de ejecutar directamente un script `.sql` si preferís trabajar con SQL puro.
 
