@@ -2,7 +2,7 @@ from sqlalchemy import (
 create_engine, Column, Integer, String, Date, ForeignKey
 )
 from sqlalchemy.orm import relationship
-from db_conector import Base  # Asegúrate que el archivo se llame exactamente db_conector.py
+from db_conector import Base
 
 class Tabla(Base):
     __tablename__ = 'tabla'
