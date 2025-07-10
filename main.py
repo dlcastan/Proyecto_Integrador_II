@@ -15,6 +15,7 @@ SQL_SCRIPTS = [
     "scripts/ordenes_postgres.sql",
     "scripts/ordenes_metodospago_postgres.sql",
     "scripts/historial_pagos_postgres.sql",
+    "scripts/detalles_ordenes_postgres.sql",
     "scripts/resenas_productos_postgres.sql"
 ]
 
