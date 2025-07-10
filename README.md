@@ -145,20 +145,15 @@ Hacé clic derecho en "Servers"
 Seleccioná "Register" → "Server..."
 
 4. Completá el formulario:
+   Tab "General"
+   Name: Postgres
 
-🔹 Tab "General"
-Name: Postgres
-
-🔹 Tab "Connection"
-Host name/address: db
-
-Port: 5432
-
-Maintenance database: EcommerceDB
-
-Username: tu_usuario
-
-Password: tu_pass
+   Tab "Connection"
+   Host name/address: db
+   Port: 5432
+   Maintenance database: EcommerceDB
+   Username: tu_usuario
+   Password: tu_pass
 
 Hacé clic en "Save"
 
