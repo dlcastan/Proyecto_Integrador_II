@@ -88,7 +88,12 @@ PgAdmin: http://localhost:8080
 ./init-scripts: Scripts .sql que se ejecutan automáticamente al iniciar la base de datos
 
 ##  Uso
-### Opción A: Crear tablas con SQLAlchemy
+
+### Abrir Docker
+
+Ejecutar la version desktop. Luego seleccionar el contenedor creado anteriormente y clickear sobre el icono de play.
+
+### Crear tablas con SQLAlchemy
 
 ```bash
 python main.py
@@ -96,7 +101,7 @@ python main.py
 
 Esto usará los modelos definidos en modelos.py y creará automáticamente las tablas en la base de datos.
 
-### Opción B: Ejecutar script SQL directamente
+### Ejecutar script SQL directamente
 
 Podés ejecutar un script SQL completo editando main.py para usar la función run_sql_script("Create_ddl_postgres.sql").
 
