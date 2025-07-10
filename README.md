@@ -164,8 +164,6 @@ Hacé clic en "Save"
 
 
 
-##  🙌 Créditos (opcional)
+##  Créditos
 Desarrollado por Diego Lopez Castan como ejercicio de integración entre SQLAlchemy y PostgreSQL.
 
-##   📝 Licencia
-Este proyecto se entrega sin licencia explícita. Podés usarlo y modificarlo libremente con fines educativos o personales.
