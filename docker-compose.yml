@@ -44,7 +44,7 @@ services:
       context: .  
     container_name: dbt_container
     volumes:
-      - ./mi_proyecto_dbt:/app/mi_proyecto_dbt
+      - ./mi_proyecto_dbt:/app/proyecto_dbt
       - ./dbt_profiles:/root/.dbt/
     depends_on:
       db:
