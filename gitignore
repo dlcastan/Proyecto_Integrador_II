@@ -1,0 +1,34 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.egg-info/
+.venv/
+venv/
+ENV/
+env/
+
+# DBT
+target/
+dbt_modules/
+dbt_packages/
+logs/
+
+# DBT profiles (no subir credenciales ni configuraciones locales)
+profiles.yml
+dbt_profiles/
+
+# Entornos virtuales y herramientas de desarrollo
+.env
+*.env
+.envrc
+.idea/
+.vscode/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
